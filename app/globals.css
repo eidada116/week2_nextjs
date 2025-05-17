@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #889063;
+  --foreground: #889063;
 }
 
 @theme inline {
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #889063;
     --foreground: #ededed;
   }
 }
@@ -27,4 +27,15 @@ body {
 button{
   background-color: greenyellow;
   color:black
+}
+
+.mainPage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  h1{
+    font-size: 50px;
+  }
 }

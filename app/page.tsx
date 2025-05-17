@@ -8,12 +8,14 @@ export default function Home() {
  
  return (
  <div>
- <h1>Welcome to My Next.js App!</h1>
- <p>This is the homepage customized by Ada.</p>
+  <div className="mainPage">
+    <h1>Welcome to My Next.js App!</h1>
+    <p>This is the homepage customized by Ada.</p>
+    <button onClick={() => router.push('/about')}>
+     Go to About
+    </button>
+  </div>
 
- <button onClick={() => router.push('/about')}>
-  Go to About
- </button>
 
 
  </div>
